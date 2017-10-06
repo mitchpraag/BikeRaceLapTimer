@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AAEF60541F8474BB003825C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF60531F8474BB003825C4 /* AppDelegate.swift */; };
-		AAEF60561F8474BB003825C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF60551F8474BB003825C4 /* ViewController.swift */; };
 		AAEF60591F8474BB003825C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEF60571F8474BB003825C4 /* Main.storyboard */; };
 		AAEF605C1F8474BB003825C4 /* BikeRaceLapTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAEF605A1F8474BB003825C4 /* BikeRaceLapTimer.xcdatamodeld */; };
 		AAEF605E1F8474BB003825C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEF605D1F8474BB003825C4 /* Assets.xcassets */; };
 		AAEF60611F8474BB003825C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEF605F1F8474BB003825C4 /* LaunchScreen.storyboard */; };
 		AAEF606C1F8474BB003825C4 /* BikeRaceLapTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF606B1F8474BB003825C4 /* BikeRaceLapTimerTests.swift */; };
 		AAEF60771F8474BB003825C4 /* BikeRaceLapTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF60761F8474BB003825C4 /* BikeRaceLapTimerUITests.swift */; };
+		AAEF60851F847924003825C4 /* LapTimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF60841F847924003825C4 /* LapTimerTableViewController.swift */; };
+		AAEF60871F847951003825C4 /* CustomTimerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF60861F847951003825C4 /* CustomTimerTableViewCell.swift */; };
+		AAEF60891F847B00003825C4 /* riderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF60881F847B00003825C4 /* riderClass.swift */; };
+		AAEF608B1F847CC6003825C4 /* riderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF608A1F847CC6003825C4 /* riderController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		AAEF60501F8474BB003825C4 /* BikeRaceLapTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeRaceLapTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEF60531F8474BB003825C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAEF60551F8474BB003825C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAEF60581F8474BB003825C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAEF605B1F8474BB003825C4 /* BikeRaceLapTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BikeRaceLapTimer.xcdatamodel; sourceTree = "<group>"; };
 		AAEF605D1F8474BB003825C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		AAEF60721F8474BB003825C4 /* BikeRaceLapTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeRaceLapTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEF60761F8474BB003825C4 /* BikeRaceLapTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRaceLapTimerUITests.swift; sourceTree = "<group>"; };
 		AAEF60781F8474BB003825C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEF60841F847924003825C4 /* LapTimerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimerTableViewController.swift; sourceTree = "<group>"; };
+		AAEF60861F847951003825C4 /* CustomTimerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimerTableViewCell.swift; sourceTree = "<group>"; };
+		AAEF60881F847B00003825C4 /* riderClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riderClass.swift; sourceTree = "<group>"; };
+		AAEF608A1F847CC6003825C4 /* riderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riderController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				AAEF60531F8474BB003825C4 /* AppDelegate.swift */,
-				AAEF60551F8474BB003825C4 /* ViewController.swift */,
+				AAEF60861F847951003825C4 /* CustomTimerTableViewCell.swift */,
+				AAEF60841F847924003825C4 /* LapTimerTableViewController.swift */,
 				AAEF60571F8474BB003825C4 /* Main.storyboard */,
+				AAEF60881F847B00003825C4 /* riderClass.swift */,
+				AAEF608A1F847CC6003825C4 /* riderController.swift */,
 				AAEF605D1F8474BB003825C4 /* Assets.xcassets */,
 				AAEF605F1F8474BB003825C4 /* LaunchScreen.storyboard */,
 				AAEF60621F8474BB003825C4 /* Info.plist */,
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEF60561F8474BB003825C4 /* ViewController.swift in Sources */,
+				AAEF60871F847951003825C4 /* CustomTimerTableViewCell.swift in Sources */,
 				AAEF605C1F8474BB003825C4 /* BikeRaceLapTimer.xcdatamodeld in Sources */,
+				AAEF608B1F847CC6003825C4 /* riderController.swift in Sources */,
 				AAEF60541F8474BB003825C4 /* AppDelegate.swift in Sources */,
+				AAEF60851F847924003825C4 /* LapTimerTableViewController.swift in Sources */,
+				AAEF60891F847B00003825C4 /* riderClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
