@@ -12,18 +12,17 @@ class CustomTimerTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        background?.layer.cornerRadius = 10.0
-        background?.layer.shadowRadius = 3.0
-        background?.layer.shadowOpacity = 0.5
-        background?.layer.shadowColor = UIColor.black.cgColor
-        background?.layer.shadowOffset = CGSize(width: 0, height: 2)
-    
-        timerLabel.text = String(counter)
-        stopButton.isEnabled = false
+//        background?.layer.cornerRadius = 10.0
+//        background?.layer.shadowRadius = 3.0
+//        background?.layer.shadowOpacity = 0.5
+//        background?.layer.shadowColor = UIColor.black.cgColor
+//        background?.layer.shadowOffset = CGSize(width: 0, height: 2)
+//
+//        timerLabel.text = String(counter)
+//        stopButton.isEnabled = false
 
 
     }
-    @IBOutlet weak var background: UIView!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var firstTimeLabel: UILabel!
